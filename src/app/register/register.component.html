@@ -1,3 +1,5 @@
-<p>
-  register works!
-</p>
+<label>
+  Name:
+  <input type="text" [formControl]="name">
+</label>
+<p>{{name.value}}</p>
